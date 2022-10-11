@@ -4,7 +4,6 @@ on: [push]
 
 jobs:
   build:
-    build:
     strategy:
       matrix:
         pyversion: ['3.5','3.8']
